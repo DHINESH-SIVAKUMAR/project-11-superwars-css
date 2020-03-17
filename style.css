@@ -20,7 +20,12 @@
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
- 
+}
+.grid div:first-child{
+  margin-left:15%;
+}
+.grid div:last-child{
+  margin-right: 15%;
 }
 .grid div {
   display:grid;
@@ -31,7 +36,7 @@
   line-height:20px ;
   font-size: 20px;
   background-color:white;
- 
+  grid-row-gap: 20px;
 }
 .grid div div{
   border:0px;
